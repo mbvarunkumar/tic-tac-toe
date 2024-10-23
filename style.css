@@ -1,0 +1,47 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ width: 100%;
+ background-color: beige;
+}
+
+#gamecontainer {
+ font-family: "Permanent Marker", cursive;
+ text-align: center;
+
+}
+
+#container {
+ display: grid;
+ width: 225px;
+ grid-template-columns: repeat(3, auto);
+ column-gap: 0%;
+ margin: auto;
+
+}
+
+.box {
+ width: 75px;
+ height: 75px;
+ border: 2px solid black;
+ box-shadow: 0 0 0 2px;
+ line-height: 71px;
+ font-size: 50px;
+ cursor: pointer;
+ text-align: center;
+
+}
+
+#restartbtn {
+ font-size: 16px;
+ padding: 1vh;
+ margin-top: 2vh;
+ background-color: white;
+ font-weight: 900;
+border-radius: 5%;}
